@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | Web Developer & Designer</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <!-- header -->
+    <header id="header-inner">
+        <div class="container">
+
+            <nav id="navbar">
+                <img src="../dist/images/M1.svg" alt="" class="logo">
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="work.html">work</a></li>
+                    <li><a href="contact.html" class="current">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact Form section -->
+    <section id="contact-a" class="text-center py-3">
+        <div class="container">
+            <h2 class="title">contact me</h2>
+            <div class="bottom-line"></div>
+            <p class="lead">Here is how you reach me</p>
+
+            <form method="POST" data-netlify-recaptcha="true" data-netlify="true">
+
+                <div class="field-grid">
+                    <input type="text" name="name" id="name" placeholder="Name">
+                    <input type="text" name="subject" id="subject" placeholder="Subject">
+                    <input type="email" name="email" id="email" placeholder="Email">
+                    <input type="text" name="phone" id="phone" placeholder="PhoneNumber">
+                    <textarea name="message" id="message" cols="30" rows="5" placeholder="Enter Message"></textarea>
+                </div>
+                <div data-netlify-recaptcha="true" class="my-2"></div>
+                <button type="submit" class="btn-dark">Submit</button>
+
+            </form>
+
+        </div>
+    </section>
+
+    <!-- Contact info section -->
+    <section id="contact-b" class="text-center bg-main py-3">
+        <div class="container">
+
+            <div class="contact-grid">
+                <div>
+                    <i class="fas fa-envelope fa-2x"></i>
+                    <h3>EMAIL</h3>
+                    <p>maha@something.com</p>
+                </div>
+                <div>
+                    <i class="fas fa-phone fa-2x"></i>
+                    <h3>Phone</h3>
+                    <p>(333) 333-3333</p>
+                </div>
+                <div>
+                    <i class="fas fa-address-card fa-2x"></i>
+                    <h3>Address</h3>
+                    <p>50 Main st, Mount will</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <br>
+    <br>
+    <br>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-content container">
+            <p>Copyright &copy; 2022. All Rights Reserved</p>
+            <div class="social-icon">
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+        </div>
+    </footer>
+
+
+</body>

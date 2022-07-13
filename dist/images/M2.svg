@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="173" height="121" viewBox="0 0 173 121">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        font-size: 72px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-family: "French Script MT";
+      }
+    </style>
+  </defs>
+  <text transform="translate(-9 117) scale(2.5 2.5)" class="cls-1"><tspan class="cls-2">M</tspan></text>
+</svg>

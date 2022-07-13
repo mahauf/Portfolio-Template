@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="183" height="94" viewBox="0 0 183 94">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        font-size: 56.371px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-family: "Stencil";
+      }
+    </style>
+  </defs>
+  <text transform="translate(-4 94) scale(2.5 2.5)" class="cls-1"><tspan class="cls-2">ML</tspan></text>
+</svg>

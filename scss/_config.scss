@@ -1,0 +1,18 @@
+$website-width: 1280px;
+$main-color: #ffbc00;
+$light-color: #f4f4f4;
+$medium-color: #ccc;
+$dark-color: #333;
+$bg-image: url('../images/bg.jpg');
+
+
+// lightness
+@function set-txt-color($color) {
+    @if (lightness($color) > 50) {
+        @return #333;
+    }
+
+    @else {
+        @return #fff;
+    }
+}

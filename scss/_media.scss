@@ -1,0 +1,174 @@
+// tablet veiw
+@media(max-width: 800px) {
+
+    // header
+    #header {
+        &-home {
+            height: 30rem;
+
+            .main-content {
+                padding-top: 5rem;
+            }
+        }
+    }
+}
+
+
+// mobile veiw
+@media(max-width: 500px) {
+
+
+    #header {
+        &-home {
+            height: 10rem;
+            border-bottom: 3px solid $main-color;
+            background-position: 20% 30%;
+
+            .main-content {
+                display: none;
+            }
+        }
+
+        &-inner {
+            height: 10rem;
+        }
+    }
+
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+
+        li {
+            padding: 1rem;
+        }
+
+    }
+
+    #home {
+        &-a {
+            .specialize-grid {
+                grid-template-columns: 1fr;
+
+                div {
+                    border-bottom: 1px #f4f4f4 solid;
+                    padding-bottom: 1rem;
+
+                    &:last-child {
+                        border: none;
+                        padding-bottom: 0;
+                    }
+                }
+
+            }
+        }
+
+        &-b {
+            .stats-grid {
+                grid-template-columns: 1fr;
+
+                div {
+                    padding: 2rem 0 1rem 0;
+                }
+            }
+        }
+
+        &-c {
+            .process-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+
+    #about {
+        &-a {
+            .about-grid {
+                grid-template-areas: 'bioimg''bio''award-1''award-2''award-3';
+            }
+        }
+
+        &-c {
+            display: none;
+        }
+
+        &-d {
+            .testimonial-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+
+    // work
+    .items {
+        grid-template-columns: 1fr;
+    }
+
+    #contact {
+        &-a {
+            .field-grid {
+                grid-template-columns: 1fr;
+
+                textarea {
+                    grid-column: 1 / span 1;
+                }
+            }
+
+            button[type=submit] {
+                width: 40%;
+            }
+
+            &-b {
+                .contact-grid {
+                    grid-template-columns: 1fr;
+
+                    div {
+                        border-bottom: 1px #f4f4f4 solid;
+                        padding-bottom: 1rem;
+                        padding-top: 1.5rem;
+
+                        &:first-child {
+                            padding-top: 0;
+                        }
+
+                        &:last-child {
+                            border: none;
+                            padding-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        padding: 1rem;
+
+        .footer-content {
+            flex-direction: column;
+
+        }
+    }
+}
+
+
+// Landscape
+@media (max-height: 580px) {
+    #header {
+        &-home {
+            .main-content {
+                padding-top: 3rem;
+            }
+        }
+    }
+}
+
+@media (max-height: 330px) {
+    #header {
+        &-home {
+            .main-content {
+                h1 {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+}
