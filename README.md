@@ -6,6 +6,7 @@
 
 ## Features
 
+* Free to Use ( OpenSource )
 * Modern UI Design
 * Sass ready with lots of commenting
 * Fully responsive
